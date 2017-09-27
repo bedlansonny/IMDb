@@ -1,17 +1,15 @@
 public class Actor
 {
     String name;
-    Actor next;
 
     public Actor()
     {
-        next = null;
+        name = null;
     }
 
     public Actor(String name)
     {
         this.name = name;
-        next = null;
     }
 
     public String getName()
@@ -24,20 +22,8 @@ public class Actor
         this.name = name;
     }
 
-    public Actor getNextPtr()
-    {
-        return next;
-    }
-
-    public void setNextPtr(Actor next)
-    {
-        this.next = next;
-    }
-
     public String toString()
     {
-        return ("Name: " + name + "\n");
+        return ("Name: " + name);
     }
-
-
 }
