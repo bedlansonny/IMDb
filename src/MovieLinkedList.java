@@ -1,5 +1,8 @@
 public class MovieLinkedList extends LinkedList
 {
+
+    //bad code: make add method only take Movie, not object
+
     public void sortRecent()
     {
         for(int i = 0; i < count; i++)
