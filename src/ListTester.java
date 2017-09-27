@@ -11,10 +11,14 @@ public class ListTester
         for(int i = 0; i < 5; i++)
             ll.add(new Actor(sc.nextLine()));
 
+        //ll.remove(new Actor("David"));
+
         for(int i = 0; i < ll.size(); i++)
         {
             System.out.println(ll.get(i));
         }
+
+        System.out.println(ll);
 
         System.out.println("\n" + ((Actor)ll.get(0)).getName());
     }
