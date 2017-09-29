@@ -20,6 +20,9 @@ public class IMDb
 
         while(moviesFile.hasNext())
         {
+
+            //movie file was meant to be split into columns. no indexOf necessary
+
             int date = moviesFile.nextInt();
 
             String line = moviesFile.nextLine();
