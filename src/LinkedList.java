@@ -65,6 +65,24 @@ public class LinkedList
         return current;
     }
 
+    public boolean contains(Object data)
+    {
+        Node current = head;
+        while(current != null)
+        {
+            //bad code: should compare more than just their toStrings. Works in this context, though.
+            if(current.get().toString().equals(data.toString()))
+            {
+                return true;
+            }
+            else
+            {
+                current = current.getNextPtr();
+            }
+        }
+        return false;
+    }
+
     public int size()
     {
         return count;

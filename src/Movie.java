@@ -63,6 +63,6 @@ public class Movie
 
     public String toString()
     {
-        return "Date: " + date + "\nTitle: " + title + "\nActors: " + actors + "\nDirectors: " + directors + "\n\n";
+        return "Date: " + date + "\tTitle: \"" + title + "\"\tActors: " + actors + "\tDirectors: " + directors;
     }
 }

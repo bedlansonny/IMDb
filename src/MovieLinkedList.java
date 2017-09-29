@@ -1,3 +1,5 @@
+//because the data given to me in this project has already been sorted, I found out this code has no purpose. Oh well.
+
 public class MovieLinkedList extends LinkedList
 {
 
